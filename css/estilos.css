@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family= Kanit ');
 @import url(menu.css);
 @import url(banner.css);
+@import url(unad.css);
 
 *{
   margin: 0;
@@ -42,4 +43,21 @@ section{
 
 #inicio{
   text-align: center;
+}
+
+footer .contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 1024px) {
+  .contenedor{
+    width: 1000px;
+  }
+
+footer .contenedor{
+  justify-content: space-between;
+}
 }
