@@ -1,5 +1,7 @@
-@import url ('https://fonts.googleapis.com/css?family= Kanit ');
-@@import url(menu.css);
+@import url('https://fonts.googleapis.com/css?family= Kanit ');
+@import url(menu.css);
+@import url(banner.css);
+
 *{
   margin: 0;
   padding: 0;
@@ -11,9 +13,9 @@ body{
 
 header{
   width: 100%;
-  height: 100px;
-  background: #00FFFF;
-  color: #FFF;
+  height: 55px;
+  background: #708090;
+  color: #000000;
   position: fixed;
   top: 0;
   left: 0;
@@ -21,6 +23,23 @@ header{
 }
 
 .contenedor{
-  width: 98%;
+  width: 100%;
   margin: auto;
+  color: #000000;
+}
+
+h1{
+  float: left;
+}
+head .contenedor{
+  display: table;
+}
+
+section{
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+#inicio{
+  text-align: center;
 }
